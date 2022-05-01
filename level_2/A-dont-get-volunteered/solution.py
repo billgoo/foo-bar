@@ -68,4 +68,3 @@ def solution(src, dest):
     start, end = Node(src, 0), Node(dest, 1000000000)
     board = Board(8)
     return board.bfs_distance(start, end)
-    
